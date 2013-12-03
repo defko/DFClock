@@ -14,10 +14,10 @@ Setup:
     - radius
     - bigCircleWidth
     - littleCircleWidth
-    - minuteWidth
-    - minuteLength
     - hourWidth
     - hourLength
+    - minuteWidth
+    - minuteLength
     - secondWidth
     - secondLength
 
