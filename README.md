@@ -27,4 +27,4 @@ Setup:
   ```
 
 
-![Alt text](DFMovieLoading/Resources/sample.png "Sample")
+![Alt text](DFClock/Resources/DFClockSample.png "Sample")
