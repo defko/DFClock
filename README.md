@@ -22,6 +22,7 @@ Setup:
     - secondLength
 
 - Set time you can use the time property. 
+
   ```
   [dfClockView setTime:[NSDate date] isAnimated:YES]
   ```
