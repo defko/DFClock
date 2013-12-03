@@ -22,9 +22,9 @@ Setup:
     - secondLength
 
 - Set time you can use the time property. 
-  `````Objective-C
+  ```
   [dfClockView setTime:[NSDate date] isAnimated:YES];
-  `````
+  ```
 
 
 ![Alt text](DFMovieLoading/Resources/sample.png "Sample")
