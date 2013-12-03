@@ -61,15 +61,15 @@
 
 - (void) commonInit
 {
-    _radius = self.frame.size.width - 5;
+    _radius = self.frame.size.width - 10;
     _bigCircleWidth = 10.f;
     _littleCircleWidth = 15.f;
-    _minuteWidth = 1.f;
-    _minuteLength = _radius/2 - 3;
-    _hourWidth = 2.f;
+    _minuteWidth = 2.f;
+    _minuteLength = _radius/2 - 10;
+    _hourWidth = 3.f;
     _hourLength = _radius/4 + 1;
     _secondWidth = 1.f;
-    _secondLength = _radius/2 - 3;
+    _secondLength = _radius/2 - 10;
     _circleColor = [UIColor colorWithRed:(90.f/255.f) green:(51.f/255.f) blue:(65.f/255.f) alpha:1.0];
 }
 
