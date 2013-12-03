@@ -17,6 +17,7 @@
 		725DF962184DE7A000AB0657 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725DF961184DE7A000AB0657 /* iPhone.storyboard */; };
 		725DF965184DE7D900AB0657 /* DFClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725DF964184DE7D900AB0657 /* DFClockViewController.m */; };
 		725DF96A184DE84B00AB0657 /* DFClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 725DF969184DE84B00AB0657 /* DFClockView.m */; };
+		725DF970184E058800AB0657 /* DFClockSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 725DF96F184E058800AB0657 /* DFClockSample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		725DF964184DE7D900AB0657 /* DFClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFClockViewController.m; sourceTree = "<group>"; };
 		725DF968184DE84B00AB0657 /* DFClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFClockView.h; sourceTree = "<group>"; };
 		725DF969184DE84B00AB0657 /* DFClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFClockView.m; sourceTree = "<group>"; };
+		725DF96F184E058800AB0657 /* DFClockSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DFClockSample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		725DF938184DE76700AB0657 /* DFClock */ = {
 			isa = PBXGroup;
 			children = (
+				725DF96E184E058800AB0657 /* Resources */,
 				725DF966184DE81100AB0657 /* Libraries */,
 				725DF941184DE76700AB0657 /* AppDelegate.h */,
 				725DF942184DE76700AB0657 /* AppDelegate.m */,
@@ -146,6 +149,14 @@
 			path = AnalogHourView;
 			sourceTree = "<group>";
 		};
+		725DF96E184E058800AB0657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				725DF96F184E058800AB0657 /* DFClockSample.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725DF970184E058800AB0657 /* DFClockSample.png in Resources */,
 				725DF93D184DE76700AB0657 /* InfoPlist.strings in Resources */,
 				725DF962184DE7A000AB0657 /* iPhone.storyboard in Resources */,
 				725DF945184DE76700AB0657 /* Images.xcassets in Resources */,
@@ -356,6 +368,7 @@
 				725DF95D184DE76700AB0657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
