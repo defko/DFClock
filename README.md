@@ -23,7 +23,11 @@ Setup:
 
 - Set time you can use the time property. 
   ```
-  [dfClockView setTime:[NSDate date] isAnimated:YES];
+  [dfClockView setTime:[NSDate date] isAnimated:YES]
+  ```
+  or
+  ```
+  dfClockView.time = [NSDate date]
   ```
 
 
